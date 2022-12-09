@@ -1,4 +1,4 @@
---// i made this script in literally a couple minutes lmao
+--// i made this in a couple of minutes lmao
 local lp = game.Players.LocalPlayer.Character
 
 local function god()
