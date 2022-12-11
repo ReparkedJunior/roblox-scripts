@@ -132,7 +132,7 @@ for _,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
     end
 end
 wait(.5)
-tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(6, Enum.EasingStyle.Linear)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
 
 tween = tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(0, -1000, 0)})
 tween:Play()
