@@ -115,7 +115,7 @@ end
 
 local target = unpack(GetPlayer(TextBox.Text)).Character
  
-game:GetService'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = target.HumanoidRootPart.CFrame
+game:GetService'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = target.HumanoidRootPart.CFrame + Vector3.new(0,1,-2)
 local h = game.Players.LocalPlayer.Character.Humanoid:Clone()
 local plr = game.Players.LocalPlayer.Character
 local CF = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
