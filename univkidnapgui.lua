@@ -7,12 +7,12 @@ local mouse = player:GetMouse()
 
 
 mouse.Button1Down:Connect(function()
-local targ = game.Players:FindFirstChild(mouse.Target.Parent.Name) or game.Players:FindFirstChild(mouse.Target.Parent.Parent.Name)
+local pp = game.Players:FindFirstChild(mouse.Target.Parent.Name) or game.Players:FindFirstChild(mouse.Target.Parent.Parent.Name)
 
-setclipboard(targ.Name)
+setclipboard(pp.Name)
 
 game.StarterGui:SetCore("SendNotification", {
-Text = targ.Name.." Selected!",
+Text = pp.Name.." Selected!",
 Title = "kidnaping",
 Time = 4
 })
