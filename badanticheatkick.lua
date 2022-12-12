@@ -1,3 +1,4 @@
+--// game: https://www.roblox.com/games/11217941123/stupid-idiot-cafe
 local CoreGui = game:GetService("StarterGui")
 repeat task.wait() until game:IsLoaded()
 
