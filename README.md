@@ -1,2 +1,2 @@
 # roblox-scripts
-place where i keep all of my scripts
+place where i practice my skills in exploiting
